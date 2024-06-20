@@ -2,6 +2,8 @@ import 'package:get/get.dart';
 import 'package:modul_2/app/modules/home/bindings/home_binding.dart';
 import 'package:modul_2/app/modules/home/views/home_view.dart';
 import 'package:modul_2/app/modules/home/views/widgets/navigation_bar.dart';
+import 'package:modul_2/app/modules/news/bindings/news_binding.dart';
+import 'package:modul_2/app/modules/news/views/news_view.dart';
 import 'package:modul_2/app/modules/register/bindings/register_binding.dart';
 import 'package:modul_2/app/modules/register/views/register_view.dart';
 
@@ -32,6 +34,7 @@ class AppPages {
     GetPage(
         name: _Paths.BOTTOMNAV,
         page: () => CurvedNavigation(),
-        binding: HomeBinding())
+        binding: HomeBinding()),
+    GetPage(name: _Paths.NEWS, page: () => NewsView(), binding: NewsBinding())
   ];
 }

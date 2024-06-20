@@ -18,6 +18,7 @@ class CurvedNavigation extends GetView<HomeController> {
         items: <Widget>[
           IconNavigationBar(icon: Icons.home_outlined),
           IconNavigationBar(icon: Icons.add),
+          IconNavigationBar(icon: Icons.newspaper_rounded),
           IconNavigationBar(icon: Icons.person),
         ],
         backgroundColor: Resources.color.whiteColor,

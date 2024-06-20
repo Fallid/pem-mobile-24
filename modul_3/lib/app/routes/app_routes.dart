@@ -7,6 +7,7 @@ abstract class Routes {
   static const REGISTER = _Paths.REGISTER;
   static const HOME = _Paths.HOME;
   static const BOTTOMNAV = _Paths.BOTTOMNAV;
+  static const NEWS = _Paths.NEWS;
 }
 
 abstract class _Paths {
@@ -15,4 +16,5 @@ abstract class _Paths {
   static const REGISTER = '/register';
   static const HOME = '/home';
   static const BOTTOMNAV = '/navigation';
+  static const NEWS = '/news';
 }
